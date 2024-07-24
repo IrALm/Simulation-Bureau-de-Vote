@@ -1,5 +1,5 @@
 /*
-    Fait par AGANZE LWABOSHI Moise et Robin NTWARI
+    Fait par AGANZE LWABOSHI Moise 
 */
 
 #include "EspaceIsoloir.hpp"

@@ -1,7 +1,7 @@
 
 /*
-    Fait par AGANZE LWABOSHI Moise et Robin NTWARI
-    Groupe 481 C
+    Fait par AGANZE LWABOSHI Moise 
+    
 */
 
 #include <cstdlib>

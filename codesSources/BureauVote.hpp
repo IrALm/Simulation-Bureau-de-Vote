@@ -1,7 +1,7 @@
 
 /* 
   Fait le 10 avril par :
-  AGANZE LWABOSHI Moise et Robin Ntwari
+  AGANZE LWABOSHI Moise 
   
 */
 

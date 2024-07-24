@@ -1,7 +1,7 @@
 
 
 /*
-    Fait par AGANZE LWABOSHI Moise et Robin NTWARI
+    Fait par AGANZE LWABOSHI Moise 
 */
 
 #ifndef TABLEVOTE_HPP
