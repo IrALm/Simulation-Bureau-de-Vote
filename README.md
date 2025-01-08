@@ -42,7 +42,14 @@ Ce projet utilise un **Makefile** pour simplifier la compilation et l'exécution
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/Simulateur-Election.git
-   cd Simulateur-Election
+   git clone git@github.com:IrALm/Simulation-Bureau-de-Vote.git
+   cd Simulation-Bureau-de-Vote
+2. Pour la compilation :
+   ```bash
+   make
+
+3. Pour l'éxecution :
+   ```bash
+   ./
 
                                       
