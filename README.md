@@ -26,6 +26,23 @@ Le projet est écrit en **C++** en utilisant le paradigme de la **Programmation 
 
 ---
 
+## Détails Techniques
+
+Le projet utilise plusieurs structures de données pour simuler un système d'élection efficace. Voici une description des principales structures et des optimisations mises en place :
+
+    **File**: Employée pour gérer les files d'attente des électeurs en attente de validation de leur identité avant de pouvoir voter. Les électeurs sont ajoutés à la file et traités dans l'ordre de leur arrivée.
+
+    Dictionnaire/HashMap : Utilisé pour stocker et récupérer rapidement les informations des électeurs et des candidats. Chaque électeur est identifié par un identifiant unique, et les informations des candidats sont indexées par leur nom ou numéro.
+
+    Table de hachage : Une table de hachage est utilisée pour associer les identifiants des électeurs à leurs informations personnelles (nom, prénom, etc.) et à leur statut de vote, permettant un accès rapide et sécurisé.
+
+    Liste chaînée : Pour gérer les bulletins de vote, une liste chaînée est utilisée. Chaque bulletin est ajouté sous forme de nœud dans la liste, et les résultats peuvent être comptabilisés efficacement.
+
+    Ensemble : Un ensemble est utilisé pour garantir l'unicité des électeurs inscrits et éviter les doublons lors de la validation des identités et des votes.
+
+Ces structures de données sont choisies en fonction des besoins du projet afin d'assurer des performances optimales en termes de coût temporel et de complexité spatiale, tout en garantissant une gestion précise et fiable des votes et des résultats.
+
+---
 ## Installation
 
 ### Prérequis
@@ -50,6 +67,10 @@ Ce projet utilise un **Makefile** pour simplifier la compilation et l'exécution
 
 3. Pour l'éxecution :
    ```bash
-   ./
+   ./main
+4. Pour le nettoyage des fichiers générés:
+   ```bash
+   make clean
+
 
                                       
